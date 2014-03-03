@@ -9,13 +9,22 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .hide{display:none}
 .show{display:block}
 
+
 main{margin:0 auto;width:998px;position:relative;clear:both;}
 
 header
 
 #top
 
-#services
+#services{background:#ffffff}
+#services h2{text-align:center;text-transform:uppercase;font:55px "Trebuchet MS";font-weight:bold;color:#676767; }
+#services ol{list-style:none}
+#services ol li{width:245px;text-align:center;position:relative;display:inline-block;margin-top:40px;padding-top:250px;vertical-align:top;font:16px "Trebuchet MS"; color:#ffb728}
+.img1{background:url(images/services/1.png) no-repeat top center;}
+.img2{background:url(images/services/2.png) no-repeat top center;}
+.img3{background:url(images/services/3.png) no-repeat top center;}
+.img4{background:url(images/services/4.png) no-repeat top center;}
+#services p{color:#808080;font:25px "Myriad Pro Cond";vertical-align:center;position:relative;display:inline-block;margin-top:15px;width:240px;margin-left:5px;text-align:center;}
 
 #formal
 
