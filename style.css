@@ -26,7 +26,9 @@ header
 .img4{background:url(images/services/4.png) no-repeat top center;}
 #services p{color:#808080;font:25px "Myriad Pro Cond";vertical-align:center;position:relative;display:inline-block;margin-top:15px;width:240px;margin-left:5px;text-align:center;}
 
-#formal
+#formal{background:url(images/fon2.png);margin-top:45px;height:340px;}
+#formal h2{font:36px "Trebuchet MS";font-weight:bold;text-align:center;color:#ffffff;padding-top:70px;}
+#formal p{text-align:center;padding-top:50px;font:25px "Trebuchet MS";color:#ff5628;}
 
 #achievements
 
