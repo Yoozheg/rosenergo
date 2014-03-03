@@ -51,7 +51,12 @@ header
 
 
 
-#careful
+#careful{background: url(images/reasonsmall.png) no-repeat center top, url(images/textura.png);}
+#careful h2{text-align:center;color:#475047;font:48px "Trebuchet MS";font-weight:bold;padding:50px 0;margin-left:20px}
+#careful h3{color:#ff5628;font:30px "Trebuchet MS";padding:10px 0;margin-left:20px}
+#careful p{color:#475057;font:16px "Trebuchet MS";width:710px;;margin-left:20px}
+#careful img.caution{float:right;margin: 0 70px 7px 0;}
+#careful img.button{margin-top:15px;margin-left:25px;cursor:pointer}
 
 #work
 
