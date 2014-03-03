@@ -37,7 +37,19 @@ header
 #achievements ol li h3{font:42px "Trebuchet MS";font-weight:bold;color:#ff5628;margin-bottom:-10px}
 
 
-#reasons
+#reasons{background:url(images/reasonbig.png)no-repeat center top;}
+#reasons h2{text-align:center;text-transform:uppercase;font:45px "Trebuchet MS";padding-top:15px;}
+#reasons ol{list-style:none;margin-top:60px}
+#reasons ol li img{margin-top:15px}
+#reasons ol li{position:relative;display:block;font:16px "Trebuchet MS";height:100px;margin:20px 0;}
+.rimg1{background:url(images/r1.png) no-repeat left center;text-align:left;padding:0  50px 0 120px}
+.rimg2{text-align:right;padding-bottom:65px}
+.rimg3{background:url(images/r3.png) no-repeat left center;text-align:left;padding:0  50px 0 120px;}
+.rimg4{text-align:right;padding-bottom:65px}
+.rimg5{background:url(images/r5.png) no-repeat left center;text-align:left;padding:0  50px 0 120px}
+.rimg6{text-align:right;padding-bottom:65px}
+
+
 
 #careful
 
