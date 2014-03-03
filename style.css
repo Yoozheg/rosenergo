@@ -30,7 +30,12 @@ header
 #formal h2{font:36px "Trebuchet MS";font-weight:bold;text-align:center;color:#ffffff;padding-top:70px;}
 #formal p{text-align:center;padding-top:50px;font:25px "Trebuchet MS";color:#ff5628;}
 
-#achievements
+#achievements{height:490px;background:url(images/achivback.png) no-repeat center top;}
+#achievements h2{text-align:center;text-transform:uppercase;padding-top:70px;font:60px "Trebuchet MS";font-weight:bold;color:#818181}
+#achievements ol{padding-top:80px;list-style:none;text-align:center}
+#achievements ol li{position:relative;display:inline-block;width:170px;background:url(images/trophy.png) no-repeat;height:170px;vertical-align:top;padding-top:57px;font:16px "Trebuchet MS";color:#666666;margin-left:25px}
+#achievements ol li h3{font:42px "Trebuchet MS";font-weight:bold;color:#ff5628;margin-bottom:-10px}
+
 
 #reasons
 
