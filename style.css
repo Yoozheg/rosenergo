@@ -12,9 +12,28 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 
 main{margin:0 auto;width:998px;position:relative;clear:both;}
 
-header
+hr{height:8px;border:none;}
+.yellow{background-color:#ffd700;}
+.red{background-color:#f04e43;}
 
-#top
+header{position:fixed;top:0;text-align:center;z-index:999;background-color:white;width:100%}
+header main{background: url('images/logo.jpg') left center no-repeat;height:auto;}
+header div{display:inline-block;}
+header div.header-center{width:740px; vertical-align:top;}
+header div.header-center p{font-weight:bold;font-size:24px;background-color:#ffd700; margin-left:290px; height:30px; margin-top:5px; padding-left:8px; width: 290px;}
+header div.header-center p.header-right{margin-left:434px;width:auto;}
+header div.header-right{text-align:right;margin-left:20px;}
+header h3{font-size:32px;font-weight:normal;}
+header h4{font-size:25px;margin-top:-10px;font-weight:normal;}
+header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
+
+#top{background: url('images/fon.jpg') center center no-repeat; height:553px; color:#fff; text-align:center; font-family: Tahoma; font-weight:bold; text-transform:uppercase;padding-top:137px;margin-top:82px;}
+#top div{background: rgba(0,0,0,0.75); height: 254px; padding-top:30px}
+#top h1{font-size:105px; margin-top: -20px;}
+#top h2{font-size:55px; margin-top: -18px;}
+#top h3{font-size:48px;}
+#top p{font-size:30px;text-transform:none;padding-top:60px;}
+#top img{padding-top:50px;cursor:pointer}
 
 #services{background:#ffffff}
 #services h2{text-align:center;text-transform:uppercase;font:55px "Trebuchet MS";font-weight:bold;color:#676767; }
