@@ -73,18 +73,28 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #careful{background: url(images/reasonsmall.png) no-repeat center top, url(images/textura.png);margin-top:40px}
 #careful h2{text-align:center;color:#475047;font:48px "Trebuchet MS";font-weight:bold;padding:50px 0;margin-left:20px}
 #careful h3{color:#ff5628;font:30px "Trebuchet MS";padding:10px 0;margin-left:20px}
-#careful p{color:#475057;font:16px "Trebuchet MS";width:710px;;margin-left:20px}
+#careful p{color:#475057;font:16px "Trebuchet MS";width:710px;margin-left:20px;top:50%}
 #careful img.caution{float:right;margin: 0 70px 7px 0;}
 #careful img.button{margin-top:15px;margin-left:25px;cursor:pointer}
 
-#work
+#work{}
 
-#comments
+#comments{background: url('images/fon3.jpg') center top repeat-y;vertical-align:center; padding-bottom: 30px;}
+#comments h3{font-size:50px;text-transform:uppercase;text-align:center;padding-top:38px;}
+#comments div{vertical-align:center; display:display;width: 760px;}
+#comments p{color:white;font-size:16px;font-weight:normal;vertical-align:center;height:209px; padding-left:175px;margin-left:70px;margin-top:25px;width: 760px;}
+#comments p.d1{background: url('images/comments/d1.jpg') left center no-repeat;}
+#comments p.d2{background: url('images/comments/d2.jpg') left center no-repeat;}
+#comments p.d3{background: url('images/comments/d3.jpg') left center no-repeat;}
 
-#certificates
+#certificates{text-align: center; padding-bottom:25px;}
+#certificates h3{color:#2e302f;font-weight:bold;font-size:48px;margin:25px 0 50px 0;}
+#certificates ol{list-style:none;}
+#certificates li{display:inline-block; width: 160px; margin: 0 10px;}
+#certificates ol li p{color:#2e302f;font-weight:normal;font-size:14px; height:50px; padding-top:10px;}
 
-#request
+#request{}
 
-#clients
+#clients{}
 
 footer
