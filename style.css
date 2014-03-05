@@ -56,7 +56,7 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #achievements ol li h3{font:42px "Trebuchet MS";font-weight:bold;color:#ff5628;margin-bottom:-10px}
 
 
-#reasons{background:url(images/reasonbig.png)no-repeat center top;}
+#reasons{background:url(images/reasonbig.png)no-repeat center top; padding-bottom: 30px;}
 #reasons h2{text-align:center;text-transform:uppercase;font:45px "Trebuchet MS";padding-top:15px;}
 #reasons ol{list-style:none;margin-top:60px}
 #reasons ol li img{margin-top:15px}
@@ -70,7 +70,7 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 
 
 
-#careful{background: url(images/reasonsmall.png) no-repeat center top, url(images/textura.png);margin-top:40px}
+#careful{background: url(images/textura.png); padding-bottom: 30px;}
 #careful h2{text-align:center;color:#475047;font:48px "Trebuchet MS";font-weight:bold;padding:50px 0;margin-left:20px}
 #careful h3{color:#ff5628;font:30px "Trebuchet MS";padding:10px 0;margin-left:20px}
 #careful p{color:#475057;font:16px "Trebuchet MS";width:710px;margin-left:20px;top:50%}
@@ -82,10 +82,10 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #comments{background: url('images/fon3.jpg') center top repeat-y;vertical-align:center; padding-bottom: 30px;}
 #comments h3{font-size:50px;text-transform:uppercase;text-align:center;padding-top:38px;}
 #comments div{vertical-align:center; display:display;width: 760px;}
-#comments p{color:white;font-size:16px;font-weight:normal;vertical-align:center;height:209px; padding-left:175px;margin-left:70px;margin-top:25px;width: 760px;}
-#comments p.d1{background: url('images/comments/d1.jpg') left center no-repeat;}
-#comments p.d2{background: url('images/comments/d2.jpg') left center no-repeat;}
-#comments p.d3{background: url('images/comments/d3.jpg') left center no-repeat;}
+#comments p{color:white;font-size:16px;font-weight:normal;vertical-align:center;padding-left:175px;margin-left:70px;margin-top:25px;width: 760px;}
+#comments p.d1{background: url('images/comments/d1.jpg') left center no-repeat;height:179px; padding-top: 30px;}
+#comments p.d2{background: url('images/comments/d2.jpg') left center no-repeat;height:164px; padding-top: 45px;}
+#comments p.d3{background: url('images/comments/d3.jpg') left center no-repeat;height:164px; padding-top: 45px;}
 
 #certificates{text-align: center; padding-bottom:25px;}
 #certificates h3{color:#2e302f;font-weight:bold;font-size:48px;margin:25px 0 50px 0;text-transform:uppercase}
