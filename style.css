@@ -73,24 +73,24 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #careful{background: url(images/reasonsmall.png) no-repeat center top, url(images/textura.png);margin-top:40px}
 #careful h2{text-align:center;color:#475047;font:48px "Trebuchet MS";font-weight:bold;padding:50px 0;margin-left:20px}
 #careful h3{color:#ff5628;font:30px "Trebuchet MS";padding:10px 0;margin-left:20px}
-#careful p{color:#475057;font:16px "Trebuchet MS";width:710px;;margin-left:20px}
+#careful p{color:#475057;font:16px "Trebuchet MS";width:710px;margin-left:20px;top:50%}
 #careful img.caution{float:right;margin: 0 70px 7px 0;}
 #careful img.button{margin-top:15px;margin-left:25px;cursor:pointer}
 
-#work
+#work{}
 
-#comments{background: url('images/fon3.jpg') center top repeat-y;vertical-align:center}
+#comments{background: url('images/fon3.jpg') center top repeat-y;vertical-align:center; padding-bottom: 30px;}
 #comments h3{font-size:50px;text-transform:uppercase;text-align:center;padding-top:38px;}
-#comments div{vertical-align:center;}
-#comments p{color:white;font-size:16px;font-weight:normal;vertical-align:center;height:209px; margin-top:25px;margin-left:70px; padding-left:175px;}
+#comments div{vertical-align:center; display:table-cell;width: 760px;}
+#comments p{color:white;font-size:16px;font-weight:normal;vertical-align:center;height:209px; padding-left:175px;margin-left:70px;margin-top:25px;width: 760px;}
 #comments p.d1{background: url('images/comments/d1.jpg') left center no-repeat;}
 #comments p.d2{background: url('images/comments/d2.jpg') left center no-repeat;}
 #comments p.d3{background: url('images/comments/d3.jpg') left center no-repeat;}
 
-#certificates
+#certificates{}
 
-#request
+#request{}
 
-#clients
+#clients{}
 
 footer
