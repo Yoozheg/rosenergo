@@ -9,7 +9,6 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .hide{display:none}
 .show{display:block}
 
-
 main{margin:0 auto;width:998px;position:relative;clear:both;}
 
 hr{height:8px;border:none;}
@@ -55,7 +54,6 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #achievements ol li{position:relative;display:inline-block;width:170px;background:url(images/trophy.png) no-repeat;height:170px;vertical-align:top;padding-top:57px;font:16px "Trebuchet MS";color:#666666;margin-left:25px}
 #achievements ol li h3{font:42px "Trebuchet MS";font-weight:bold;color:#ff5628;margin-bottom:-10px}
 
-
 #reasons{background:url(images/reasonbig.png)no-repeat center top; padding-bottom: 30px;}
 #reasons h2{text-align:center;text-transform:uppercase;font:45px "Trebuchet MS";padding-top:15px;}
 #reasons ol{list-style:none;margin-top:60px}
@@ -68,8 +66,6 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 .rimg5{background:url(images/r5.png) no-repeat left center;text-align:left;padding:0  50px 0 120px}
 .rimg6{text-align:right;padding-bottom:65px}
 
-
-
 #careful{background: url(images/textura.png); padding-bottom: 30px;}
 #careful h2{text-align:center;color:#475047;font:48px "Trebuchet MS";font-weight:bold;padding:50px 0;margin-left:20px}
 #careful h3{color:#ff5628;font:30px "Trebuchet MS";padding:10px 0;margin-left:20px}
@@ -77,7 +73,14 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #careful img.caution{float:right;margin: 0 70px 7px 0;}
 #careful img.button{margin-top:15px;margin-left:25px;cursor:pointer}
 
-#work{}
+#work{background:url(images/fon2.jpg) center center no-repeat;height:524px;color:white}
+.form h2,.form h3{font-family:'Trebuchet MS';font-size:55px;font-weight:bold;text-align:center;text-transform:uppercase;padding-top:16px}
+.form h3{font-size:35px}
+.form p{border:none;text-align:center;font-family:'Trebuchet MS';font-size:20px;font-weight:normal}
+.form form{margin:0 auto;width:770px;text-align:center}
+.form form input{background:url(images/forma.png) center center no-repeat;width:221px;height:44px;font-size:20px;font-family:'Trebuchet MS';font-weight:normal;text-align:left;border:none;color:white;display:inline-block;padding:0 10px;margin:6px}
+.form form textarea{background:url(images/forma1.png) center center no-repeat;width:741px;height:82px;font-size:20px;font-family:'Trebuchet MS';font-weight:normal;text-align:left;border:none;color:white;margin:6px 0;padding:5px 10px}
+.form form img{margin-top:16px;cursor:pointer}
 
 #comments{background: url('images/fon3.jpg') center top repeat-y;vertical-align:center; padding-bottom: 30px;}
 #comments h3{font-size:50px;text-transform:uppercase;text-align:center;padding-top:38px;}
@@ -103,4 +106,9 @@ header h5{font-size:16px;margin-top:-10px;font-weight:normal;}
 #clients li{display:inline-block; margin: 10px 10px;}
 #clients p{color:#838383;font-weight:normal;font-size:20px; padding-top:10px;}
 
-footer
+footer{background:url(images/fon7.jpg) center center no-repeat;height:509px;color:white}
+
+#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
+#splash main{text-align:center;top:150px}
+#splash p{color:white;text-align:center}
+#splash form{margin:0 auto 0;position:static}

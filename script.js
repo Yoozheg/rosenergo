@@ -1,5 +1,5 @@
 (function(window, document, undefined){
- "use strict"
+ "use strict";
  
  function $(e){return typeof e == 'string' ? document.querySelector(e) : e}
  
@@ -100,31 +100,7 @@
  }
  
  window.onload = function(e){
-  $('header form img').onclick = function(event){
-   var inputs = document.querySelectorAll('header form input');
-   var data = {};
-   for(var i = 0; i < inputs.length; ++i){
-    if(inputs[i].value.length > 0 && inputs[i].checkValidity()) data[inputs[i].name] = inputs[i].value; else return alert("Как минимум одно из полей не заполнено!")
-   }
-   ajax(data, 'server.php', function(r){
-    alert(r);
-   });
-   return false;
-  }
-  
-  $('#discript form img').onclick = function(event){
-   var inputs = document.querySelectorAll('#discript form input');
-   var data = {};
-   for(var i = 0; i < inputs.length; ++i){
-    if(inputs[i].value.length > 0 && inputs[i].checkValidity()) data[inputs[i].name] = inputs[i].value; else return alert("Как минимум одно из полей не заполнено!")
-   }
-   ajax(data, 'server.php', function(r){
-    alert(r);
-   });
-   return false;
-  }
-	
-	$('#splash').onclick = function(){
+  	$('#splash').onclick = function(){
 	 $('#splash').style.display = 'none';
 	}
 	$('#splash form').onclick = function(e){
@@ -133,21 +109,31 @@
    e.cancelBubble = true;
 	 return false;
 	}
-	$('#splash form img').onclick = function(event){
-   var inputs = document.querySelectorAll('#splash form input');
+	function form(form){
+   var inputs = form.querySelectorAll('input');
    var data = {};
    for(var i = 0; i < inputs.length; ++i){
     if(inputs[i].value.length > 0 && inputs[i].checkValidity()) data[inputs[i].name] = inputs[i].value; else return alert("Как минимум одно из полей не заполнено!")
    }
+	 var textarea = form.querySelector('textarea');
+	 data['comment'] = textarea.value;
    ajax(data, 'server.php', function(r){
     alert(r);
    });
 	 $('#splash').style.display = 'none';
-   return false;
-  }
+   return false;	 
+	};
 	
-	$('#button').onclick = function(){
+	$('#splash form img').onclick = function(event){ return form($('#splash form')); }
+	$('#work form img').onclick = function(event){ return form($('#work form')); }
+	$('footer form img').onclick = function(event){ return form($('footer form')); }
+
+	var buttons = document.querySelectorAll('.button');
+	function buttonClick(){
 	 $('#splash').style.display = 'block';
+	}
+	for(var i=0;i<buttons.length;++i){
+	 buttons[i].onclick = buttonClick;
 	}
  }
 })(window, document);
